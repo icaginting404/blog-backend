@@ -1,0 +1,9 @@
+node_modules
+npm-debug.log
+.env
+.git
+.gitignore
+vendor
+storage/*.key
+docker-compose.yml
+Dockerfilegit 
