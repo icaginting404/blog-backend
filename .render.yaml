@@ -10,5 +10,9 @@ services:
         value: production
       - key: APP_KEY
         generateValue: true
+      - key: APP_DEBUG
+        value: false
       - key: DB_CONNECTION
         value: sqlite
+      - key: DB_DATABASE
+        value: /storage/database.sqlite
